@@ -3,7 +3,7 @@ async function queryLocation() {
     const resultElement = document.getElementById('result');
 
     // Replace this URL with the actual URL of your Flask backend hosted on Heroku, Render, or AWS
-    const backendUrl = 'https://your-backend-url.com/query';
+    const backendUrl = 'http://127.0.0.1:5000';
 
     try {
         // Make a GET request to the backend with the location as a query parameter
